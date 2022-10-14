@@ -1,0 +1,664 @@
+<!doctype html> <html> <head>
+<!--
+███╗░░░███╗███████╗██████╗░██╗░█████╗░██╗░░░░░░█████╗░██████╗░ 
+████╗░████║██╔════╝██╔══██╗██║██╔══██╗██║░░░░░██╔══██╗██╔══██╗
+██╔████╔██║█████╗░░██║░░██║██║███████║██║░░░░░███████║██████╦╝
+██║╚██╔╝██║██╔══╝░░██║░░██║██║██╔══██║██║░░░░░██╔══██║██╔══██╗
+██║░╚═╝░██║███████╗██████╔╝██║██║░░██║███████╗██║░░██║██████╦╝
+╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═════╝░
+Hi there, curious developer!. 
+Interested in working with a growing company with a startup vibe. 
+Visit: aHR0cHM6Ly93d3cubWVkaWFsYWIubGEvbGV2ZXItc2l0ZS1vcGVuaW5ncwo=
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="//wa1.narvii.com/static/dist/js/main.144bb0a5c.js" as="script"/>
+ <title>Это я когда жду 2ой сезон Юрочки | Юрий на льду !!! Amino</title>   <meta name="description" content="Здесь интерестно"> <meta property="description" content="Здесь интерестно"/> <meta property="og:description" content="Здесь интерестно"/>   <meta name="keyword" content="Юри на льду,аниме,Юрий,ЮНЛ,Виктор,Яой,Фигурное Катание,На Льду,Юрий На Льду,Сёнэн Ай"/>  <meta property="og:title" content="Это я когда жду 2ой сезон Юрочки | Юрий на льду !!! Amino"/> <meta property="og:site_name" content="Юрий на льду !!! | aminoapps.com"/>  <meta property="og:image" content="http://pm1.narvii.com/6607/4f75958b28de48f3a9ee7cc4a5357675fea73abf_00.jpg"/> <meta property="twitter:image" content="http://pm1.narvii.com/6607/4f75958b28de48f3a9ee7cc4a5357675fea73abf_00.jpg"/> <meta property="shareaholic:image" content="http://pm1.narvii.com/6607/4f75958b28de48f3a9ee7cc4a5357675fea73abf_00.jpg"/>  <meta name="theme-color" content="hsla(215, 21%, 20%, 1.000000)"/>  
+    <link rel="shortcut icon" href="//wa1.narvii.com/static/img/favicon.ico?v=1">
+        <link rel="canonical" href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/eto-ia-kogda-zhdu-2oi-sezon-iurochki/N41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2"> <meta name="apple-itunes-app" content="app-id=1115565187, app-argument=`narviiapp://x227658902/blog/2746610b-3cb0-4c83-b1ad-4fd7e821bf91`"> <link rel="manifest" href="https://aminoapps.com/android-manifest.json?deeplink=narviiapp%3A//x227658902/blog/2746610b-3cb0-4c83-b1ad-4fd7e821bf91"> 
+    <!-- ANA SDK needs to be loaded before Carbon -->
+    <script async src="https://js.media-lab.ai/wana.2.1.3.js"></script>
+<script type='text/javascript'>
+    // window.ana_debug = true;
+
+    /**
+     * Returns the first child of an HTML element
+     * @param {Element} element
+     */
+    function getFirstChild(element) {
+        return element.children[0];
+    }
+
+    document.addEventListener('ANAReady', () => {
+        wanaLoad();
+    });
+
+    const wanaLoad = () => {
+        const gptOptions = {
+            enableSingleRequest: true,
+            sandboxIframe: true,
+            collapseEmptyDivs: false,
+            globalTargeting: {
+                'domain': window.location.hostname,
+                'youtube': 'n',
+            },
+        };
+
+        window.ANAWeb = new ANAWeb({ gptOptions });
+    }
+
+    /**
+     * Creates an Assembly ad slot
+     * @deprecated Use createAssemblyAdSlot instead.
+     * By passing an object as parameter instead of individual paramenters, you can
+     * easily extend, remove or change the parameters by adding, removing or changing
+     * new keys to the object.
+     */
+    const createSlot = (slotName, elementID, adUnitID, dimensions, refresh = false, maxWidth = undefined) => {
+        window[slotName] = window.ANAWeb.createSlot(SlotTypeEnum.GOOGLE, {
+            elementID,
+            adUnitID,
+            dimensions,
+            collapseBeforeFill: false,
+            collapseIfNoFill: false,
+        });
+
+        window[slotName].refresh();
+
+        if (refresh) {
+            refreshInterval(slotName, maxWidth);
+        }
+    }
+
+    /**
+     * Creates an Assembly ad slot.
+     * @see https://whisper.atlassian.net/wiki/spaces/ASTI/pages/4972118021/2.0.12#createSlot(slotType%2C-slotOptions)-BannerSlot
+     * @param { Object } options
+     * @param { string } options.slotName A reference of the slot created is stored under window with the slotName as key
+     * @param { string } options.elementID The ID of the HTML element the ad created will be placed
+     * @param { string } options.adUnitID The GAM ad unit id, eg: `/114106652/wshh_desktop_hp_btf_3`
+     * @param { number[][] } options.dimensions Array of arrays to map to supported sizes
+     * @param { boolean | undefined } options.refresh If true, the refresh function will be executed for the given slot
+     * @param { number | undefined } options.maxWidth ???
+     * @param { boolean | undefined } options.collapseBeforeFill If true the element will remain collapsed unless the ad fills
+     * @param { boolean | undefined } options.collapseIfNoFill If true the the element will collapse if the ad attempt does not fill
+     */
+    function createAssemblyAdSlot(options) {
+        const {
+            slotName,
+            elementID,
+            adUnitID,
+            dimensions,
+            refresh = false,
+            maxWidth = undefined,
+            collapseBeforeFill = false,
+            collapseIfNoFill = false,
+        } = options;
+
+        if (!slotName || typeof slotName !== "string") {
+            throw new Error('slotName (string) is required');
+        }
+
+        if (!elementID || typeof elementID !== "string") {
+            throw new Error('elementID (string) is required');
+        }
+
+        if (!adUnitID || typeof adUnitID !== "string") {
+            throw new Error('adUnitID (string) is required');
+        }
+
+        if (!dimensions || !Array.isArray(dimensions)) {
+            /** @TODO Probably we should do a better validation here */
+            throw new Error('dimensions (number[][]) is required');
+        }
+
+        window[slotName] = window.ANAWeb.createSlot(SlotTypeEnum.GOOGLE, {
+            elementID,
+            adUnitID,
+            dimensions,
+            collapseBeforeFill,
+            collapseIfNoFill,
+        });
+
+        window[slotName].refresh();
+
+        //window.ANAWeb.refreshAllGoogleSlots();
+
+        if (refresh) {
+            refreshInterval(slotName, maxWidth);
+        }
+    }
+
+    const createMobileSlots = () => {
+        var adBlockContainers = [...document.getElementsByClassName("ad-block-container-mobile")];
+        adBlockContainers.forEach((container, index) => {
+            const element = getFirstChild(container);
+
+            if (element.id === `slot-mobile-${index}`) {
+                return;
+            }
+
+            element.id = `slot-mobile-${index}`;
+            element.style.textAlign = 'center';
+
+            window.createSlot(`slotMobile${index}`, `slot-mobile-${index}`, '/114106652/amino_300x250_atf_mw', [[300, 250], [300, 600]]);
+        });
+    }
+
+    /**
+     * Create ad slots for ad containers between posts items in the Community feed.
+     */
+    function fillInBetweenPostsAdSlots() {
+        var slotContainers = [...document.getElementsByClassName("post-list-item--desktop-ad")];
+
+        slotContainers.forEach((container, index) => {
+            const element = getFirstChild(container);
+            const elementID = `slot-desktop-${index}`;
+
+            // If the slot is already created, skip it.
+            if (element.id === elementID) {
+                return;
+            }
+
+            element.id = elementID;
+            element.style.textAlign = "center";
+            const adUnitID = "/114106652/amino_desktop_728x90";
+
+            window.createAssemblyAdSlot({
+                slotName: `slotDesktop${index}`,
+                elementID,
+                adUnitID,
+                dimensions: [[728, 90]],
+                collapseBeforeFill: false,
+                collapseIfNoFill: false,
+                refresh: true,
+            });
+        })
+    }
+
+    window.createSlot = createSlot;
+    window.createAssemblyAdSlot = createAssemblyAdSlot;
+    window.createMobileSlots = createMobileSlots;
+    window.fillInBetweenPostsAdSlots = fillInBetweenPostsAdSlots;
+
+    const refreshInterval = (slotName, maxWidth) => {
+        window[`${slotName}Refresh`] = setInterval(() => {
+            if (maxWidth && window.innerWidth < maxWidth) {
+                return;
+            }
+
+            window[slotName].refresh();
+        }, 10000);
+    };
+
+    // Every debounce needs to have it's method because of overplapping
+    const scrollListener = (className, id) => window.addEventListener("scroll", () => {
+        if (id === 'slot-right-aside') {
+            return debounceInvokeRight(className, id);
+        }
+
+        debounceInvoke(className, id);
+    }, { passive: true });
+
+    const isInViewport = (element, topAdd = false) => {
+        const rect = element.getBoundingClientRect();
+
+        if (topAdd) {
+            return (rect.bottom >= 50);
+        }
+
+        return (
+            // header height is approx. 50px;
+            rect.top >= 50 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        );
+    }
+
+    const debounce = (func, wait) => {
+        let timeout;
+
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    };
+
+    const debounceInvoke = debounce(function (className, id) {
+        runOnScroll(className, id);
+    }, 1000);
+
+    const debounceInvokeRight = debounce(function (className, id) {
+        runOnScroll(className, id);
+    }, 1000);
+
+    const runOnScroll = (className, id) => {
+        const elementsWithGivenClass = document.getElementsByClassName(className);
+
+        for (let i = 0; i < elementsWithGivenClass.length; i++) {
+            const element = elementsWithGivenClass[i];
+
+            if (isInViewport(element)) {
+                if (getFirstChild(element).id === id) {
+                    break;
+                }
+
+                let itemToMove;
+                let placeToMove;
+
+                [...elementsWithGivenClass].find((item, index) => {
+                    if (getFirstChild(item).id === id) {
+                        itemToMove = item;
+                        placeToMove = index;
+                    }
+                });
+
+                element.appendChild(getFirstChild(itemToMove));
+
+                itemToMove.appendChild(getFirstChild(element));
+
+                getFirstChild(element).style.display = "none";
+
+                if (id === 'slot-right-aside') {
+                    clearInterval(window.slotRightAsideRefresh);
+                    refreshInterval('slotRightAside', 1207);
+                    window.slotRightAside.refresh();
+                }
+
+                if (id === 'slot-banner') {
+                    window.slotBanner.refresh();
+                }
+            }
+        }
+    };
+
+    window.scrollListener = scrollListener;
+    window.isInViewport = isInViewport;
+</script>
+    <!-- Carbon Analytics -->
+<!-- From docs: For best results and full compatibility, we recommend that the tag is deployed as early as possible in the <head> of each page.
+-->
+
+<!-- Carbon Analytics -->
+<script>
+    !function(a,l,b,c,k,s,t,g,A){a.CustomerConnectAnalytics=k,a[k]=a[k]||function(){
+        (a[k].q=a[k].q||[]).push(arguments)},g=l.createElement(b),A=l.getElementsByTagName(b)[0],
+        g.type="text/javascript",g.async=!0,g.src=c+"?id="+s+"&parentId="+t,A.parentNode.insertBefore(g,A)
+    }(window,document,"script","//carbon-cdn.ccgateway.net/script","cca",window.location.hostname,"e8a16a4090");
+</script>
+<!-- END Carbon Analytics -->
+
+<!-- GAM Publisher Tag Setup -->
+<script>
+    document.addEventListener('ANAReady', () => {
+        !function(t, gt){
+            gt = t || {};
+            gt.cmd = t.cmd || [];
+            gt.cmd.push(function () {
+                if (gt.pubads().getTargeting('carbon_segment').length === 0) {
+                    var carbon = JSON.parse(window.localStorage.getItem('ccRealtimeData'));
+                    gt.pubads().setTargeting('carbon_segment', carbon ? carbon.audiences.map(function (i){ return i.id; }) : []);
+                }
+                if (gt.pubads().getTargeting('cc-iab-class-id').length === 0) {
+                    var iabIds = JSON.parse(window.localStorage.getItem('ccContextualData'));
+                    gt.pubads().setTargeting('cc-iab-class-id', iabIds);
+                }
+            });
+        }(window.googletag);
+    });
+</script>
+<!-- END GAM Publisher Tag Setup -->
+ <link rel="stylesheet" href="//wa1.narvii.com/static/dist/css/desktop-style.93609765e.css"> 
+
+          <script>
+            window.ServerData = window.ServerData || {};
+        </script>
+  <style type="text/css" class="custom">
+    body { --community-color: hsla(215, 21%, 32%, 1.000000); }
+    .community-bg { background-color: hsla(215, 21%, 32%, 1.000000); }
+    .community-color, .community-color:hover, .community-color:visited, .community-color:link, .community-color:active {
+        color: hsla(215, 21%, 32%, 1.000000); }
+    .community-bg-dark { background-color: hsla(215, 21%, 20%, 1.000000); }
+    .community-color-dark, .community-color-dark:hover, .community-color-dark:visited, .community-color-dark:link, .community-color-dark:active { color: hsla(215, 21%, 20%, 1.000000); }
+    *::selection { background: hsla(215, 21%, 32%, 1.000000); color: white; }
+
+    </style>  <style>
+    @media (min-width: 1206px) {
+        section.global-body {
+            max-width: 1186px;
+        }
+
+        .home-section-nav .home-fixed-container {
+            max-width: 577px;
+        }
+
+        .global-header>.content .container {
+            max-width: 1186px;
+        }
+
+        section.post-list.new-post-list>.list-item {
+            max-width: 280px;
+        }
+    }
+
+    @media (min-width: 1493px) {
+        section.global-body {
+            max-width: 1483px;
+        }
+
+        .home-section-nav .home-fixed-container {
+            max-width: 873px;
+        }
+
+        .global-header>.content .container {
+            max-width: 1483px;
+        }
+    }
+</style>         <script type="application/ld+json">{"@context": "http://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "\u041d\u0438\u043a\u0430 \u0410\u0439\u0440\u043e\u043d( \u0425\u0430\u0442\u0438\u043a\u043e-\u0442\u044f\u043d)", "url": "https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk"}, "dateModified": "2017-10-05T10:42:57Z", "datePublished": "2017-10-05T10:42:57Z", "headline": "\u042d\u0442\u043e \u044f \u043a\u043e\u0433\u0434\u0430 \u0436\u0434\u0443 2\u043e\u0439 \u0441\u0435\u0437\u043e\u043d \u042e\u0440\u043e\u0447\u043a\u0438", "image": {"@type": "ImageObject", "url": "http://pm1.narvii.com/6607/4f75958b28de48f3a9ee7cc4a5357675fea73abf_00.jpg"}, "mainEntityOfPage": "https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/eto-ia-kogda-zhdu-2oi-sezon-iurochki/N41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2", "publisher": {"@type": "Organization", "logo": {"@type": "ImageObject", "height": 60, "url": "http://aminoapps.com/static/img/amino-logo-ld.png", "width": 179}, "name": "AminoApps", "url": "http://aminoapps.com"}}</script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+    _atrk_opts = { atrk_acct:"cTwYt1zDGU20kU", domain:"aminoapps.com",dynamic: true};
+    (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+    </script>
+
+    <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=cTwYt1zDGU20kU" style="display:none" height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "22489583" });
+
+    (function () {
+        var s = document.createElement("script");
+        var el = document.getElementsByTagName("script")[0];
+
+        s.async = true;
+        s.src = "https://sb.scorecardresearch.com/cs/22489583/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script> <noscript>
+    <img src=https://sb.scorecardresearch.com/p?c1=2&amp;c2=22489583&amp;cv=3.6.0&amp;cj=1>
+</noscript></head>
+<body class="mob_no_backtop  not-mobile "
+      data-vce="body"
+>
+<div id="top"></div>
+    <!-- This space will be replaced in v2/pages/home.html by a block with the same name -->
+
+<header class="global-header">
+    <div class="content community-bg">
+        <div class="container">
+ <nav class="global-nav "> <ul class="content">  <li class="nav-item nav-search"> <div class="nav-search-container global-dropdown-anchor " data-vce="search-btn" data-always-open="false"> <form class="search-input-container"> <input maxlength="50" autocomplete="false" class="nav-search-input" type="search" placeholder="Поиск в амино" value="" required /> <div class="clear-button"> <i class="amino-icon amino-icon-x"></i> </div> <span class="cancel-search">Отменить</span> </form> <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" class="svg-icon amino-icon amino-icon-search" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="translate(.8 .6)" fill-rule="evenodd"><path d="M9.902 17.457c-4.128 0-7.5-3.372-7.5-7.5 0-4.129 3.372-7.501 7.5-7.501 4.129 0 7.501 3.372 7.501 7.5 0 4.129-3.372 7.501-7.5 7.501zm7.799-1.43a9.883 9.883 0 0 0 2.13-6.124C19.832 4.453 15.38 0 9.903 0 4.425 0 0 4.452 0 9.903c0 5.45 4.452 9.902 9.902 9.902a9.998 9.998 0 0 0 6.125-2.132l5.963 5.963 1.7-1.7-5.99-5.908z"/></g></svg> <div class="global-dropdown-container search-dropdown-container amino-logo-animation"></div> </div> </li>  <li class="nav-item"> <a class="nav-link block" href="https://aminoapps.com/explore/" title="Исследовать" data-refer-type="site_navbar_icon_explore" >  <svg width="25" height="25" class="explore-icon svg-icon amino-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill-rule="evenodd"><g transform="translate(.6 .8)"><path d="M12 21.666c-5.33 0-9.666-4.336-9.666-9.666S6.67 2.334 12 2.334 21.666 6.67 21.666 12 17.33 21.666 12 21.666m8.482-18.144l-.004-.004C18.182 1.25 15.171 0 12 0 5.383 0 0 5.383 0 12c0 3.171 1.25 6.182 3.522 8.482C5.818 22.75 8.829 24 12 24c3.17 0 6.182-1.25 8.482-3.522C22.75 18.182 24 15.171 24 12c0-3.17-1.25-6.182-3.518-8.478"/></g><path d="M13.4 14.4c-.897 0-1.6-.527-1.6-1.2 0-.673.703-1.2 1.6-1.2.897 0 1.6.527 1.6 1.2 0 .673-.703 1.2-1.6 1.2m6.197-6.99a.838.838 0 0 0-.967-.101l-7.287 3.697-4.23 6.391c-.175.286-.148.62.09.823.147.13.322.18.529.18a.743.743 0 0 0 .411-.102l7.314-3.697 4.23-6.368c.175-.282.148-.615-.09-.823"/></g></svg>  <span class="nav-text">Исследовать</span> </a> </li>  <li class="nav-item nav-user less-margin">  <a class="nav-link block pointer" data-vce="btn-popup" data-popup="login" data-popup-close-by-overlay="1" data-popup-source="Top Nav" data-event-category="Sign In Popup" data-event-label="top_nav" data-tea-event="sign_in_popup" data-tea-source="Top Nav" > Войти </a>  </li>  <li class="nav-item nav-download"> <a class="btn btn-download community-color" href="/get/amino/" data-event-category="NavBar Get App"> Скачать </a> </li>  </ul> </nav>            <div class="amino-logo-container">
+                <a class="amino-logo" href="https://aminoapps.com" data-refer-type="site_navbar_amino_logo">
+                        <img src="//wa1.narvii.com/static/img/amino-logo-white.svg?v=2" class="logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- This space will be replaced in v2/pages/home.html by a block with the same name -->
+
+
+
+<section class="global-body">
+        <div class="global-bg custom-bg container-fixed-bg "></div>
+ <section class="community-content"> <nav class="home-section-nav oneline" data-vce="community-nav"> <div class="home-fixed-container"> <a class="home-nav-home community-color" href="/c/iurii-na-ldu-3293482/home/" data-refer-type="community_nav_home" > <i class="amino-icon amino-icon-home"></i> </a> <ul class="unstyled content" data-vce="headroom" data-headroom-offset="200">  <li class="section-item  community-color "> <a class="block" href="/c/iurii-na-ldu-3293482/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-star"></i> <span class="label">Избранное</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/iurii-na-ldu-3293482/recent/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-clock"></i> <span class="label">Новое</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/iurii-na-ldu-3293482/wiki/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-favs"></i> <span class="label">Статьи</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/iurii-na-ldu-3293482/polls/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-poll"></i> <span class="label">Опросы</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/iurii-na-ldu-3293482/quizzes/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-quiz"></i> <span class="label">Викторины</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/iurii-na-ldu-3293482/shared-folder/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-folder"></i> <span class="label">Общая папка</span> </a> </li>  <li class="section-item  community-color  hide-on-mobile"> <a class="block" href="/c/iurii-na-ldu-3293482/info/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-info"></i> <span class="label">Сведения</span> </a> </li>  <li class="section-item"></li> <li class="section-item"></li> </ul>  <a class="overflow-hint" href="javascript:void(0);" data-tea-event="community_nav_scroll" data-tea-type="Next" data-event-category="Community Nav Scroll" data-event-action="next"> <i class="amino-icon amino-icon-rightward community-color"></i> </a>  </div> </nav>   <section class="main-page content"> <div class="content" data-vce="next-page-loader" >  <div class="htec-main-post"> <div style="min-height: 250px; max-width: 728px; margin: auto;"> <script 
+        type="text/javascript" 
+        language="javascript" 
+        src="https://live.primis.tech/live/liveView.php?s=110908&cbuster=%%CACHEBUSTER%%&floatDirection=bl">
+    </script> </div> <article class="post main-post hide-blocker " >   <header class="title">  <h1 class="title community-color force-word-break" data-vce="rich-content"> Это я когда жду 2ой сезон Юрочки </h1> </header> <section class="info">  <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk" class="block"> <img class="author avatar img-cover" alt="Author's Avatar" data-vce="image"  src="//pm1.narvii.com/6592/353457f5ece17c5a55d817365d5749040eb7dec7_128.jpg"  > </a> <div class="overflow-hidden"> <a class="nickname" href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk" data-vce="rich-content">  <span class="content">Ника Айрон( Хатико-тян)</span>  <i class="level-badge level-badge-9"></i>  </a> <span class="pretty-date"> 10/05/17 </span> </div>   <section class="counters">  <div class="vote-counter pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/eto-ia-kogda-zhdu-2oi-sezon-iurochki/N41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2"   data-target-ndc-id="227658902" data-target-post-type="blog" data-target-post-id="2746610b-3cb0-4c83-b1ad-4fd7e821bf91" data-target-log-type="image"  data-join-icons="" data-join-deeplink="narviiapp://x227658902/blog/2746610b-3cb0-4c83-b1ad-4fd7e821bf91" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/eto-ia-kogda-zhdu-2oi-sezon-iurochki/N41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2" data-login-motivation="Войдите, чтобы лайкнуть эту запись." data-event-label="like_post" data-submit-event-label="live_comment" data-source="Like Post" > <i class="amino-icon amino-icon-heart-o"></i> <span class="num">23</span> </div>  <div class="comment-counter pointer" data-vce="btn-popup" data-popup="join-community" data-popup-icons="//pm1.narvii.com/6592/353457f5ece17c5a55d817365d5749040eb7dec7_128.jpg" data-popup-deeplink="narviiapp://x227658902/blog/2746610b-3cb0-4c83-b1ad-4fd7e821bf91" data-popup-motivation="comment" data-popup-motivation-comment="page" data-popup-close-by-overlay="1" data-popup-tea-source="Comment Post Popup" data-event-category="Popup Join" data-event-action="comment" data-tea-event="download_popup" data-tea-source="Comment" > <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </section> </section> <div class="post-full-content">   <section class="content rich-content article" data-vce="rich-content"> <div
+ class="post-content-toggle"  >  <div class="extra-items"> <div class="image-container"><img class="post-img" data-vce="image"  src="//pm1.narvii.com/6607/4f75958b28de48f3a9ee7cc4a5357675fea73abf_hq.jpg"  id="media-18f1f66f" alt="amino-18f1f66f"></div></div> </div> </section> </div>     <section class="share hide-phone" data-vce="call2action-interest-anchor"> <h3 class="label">Поделиться с </h3> <ul class="unstyled share-icons with-color bubble">  <li class="item via-facebook"> <a href="//www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faminoapps.com%2Fp%2F3ty9c" class="block" data-event-category="Facebook share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Facebook" target="_blank"> <i class="fa-2x amino-icon amino-icon-f"></i> </a> </li>  <li class="item via-twitter"> <a href="//twitter.com/share?url=http%3A%2F%2Faminoapps.com%2Fp%2F3ty9c&text=%D0%AD%D1%82%D0%BE+%D1%8F+%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0+%D0%B6%D0%B4%D1%83+2%D0%BE%D0%B9+%D1%81%D0%B5%D0%B7%D0%BE%D0%BD+%D0%AE%D1%80%D0%BE%D1%87%D0%BA%D0%B8" data-event-category="Twitter share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Twitter" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-twitter"></i> </a> </li>  <li class="item via-tumblr"> <a href="//www.tumblr.com/share/link?url=http%3A%2F%2Faminoapps.com%2Fp%2F3ty9c&text=%D0%AD%D1%82%D0%BE+%D1%8F+%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0+%D0%B6%D0%B4%D1%83+2%D0%BE%D0%B9+%D1%81%D0%B5%D0%B7%D0%BE%D0%BD+%D0%AE%D1%80%D0%BE%D1%87%D0%BA%D0%B8" data-event-category="Tumblr share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Tumblr" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-t"></i> </a> </li>  <li class="item via-copylink"> <a class="block pointer with-tooltip" data-vce="clipboard" data-clipboard-text="http://aminoapps.com/p/3ty9c" data-event-category="CopyLink" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Link" > <i class="fa-2x amino-icon amino-icon-link"></i> <span class="tooltip tooltip-top">Скопировано</span> </a> </li> </ul> </section>  <div class="comment-like-share community-color collapse" data-vce="collapse-comment"> <div class="collapse-counter pointer" > <div class="vote-number counter-btn"> <i class="amino-icon amino-icon-heart"></i> <span> Лайки (23) </span> </div> <div class="comment-number counter-btn"> <i class="amino-icon amino-icon-comment-splat"></i> <span> Комментарии (0) </span> </div> </div> <div class="pointer collapse-share collapse"> <i class="amino-icon amino-icon-share"></i> <i class="amino-icon amino-icon-x"></i> <section class="share" data-vce="call2action-interest-anchor"> <ul class="unstyled share-icons with-color bubble">  <li class="item via-facebook"> <a href="//www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faminoapps.com%2Fp%2F3ty9c" class="block" data-event-category="Facebook share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Facebook" target="_blank"> <i class="fa-2x amino-icon amino-icon-f"></i> </a> </li>  <li class="item via-twitter"> <a href="//twitter.com/share?url=http%3A%2F%2Faminoapps.com%2Fp%2F3ty9c&text=%D0%AD%D1%82%D0%BE+%D1%8F+%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0+%D0%B6%D0%B4%D1%83+2%D0%BE%D0%B9+%D1%81%D0%B5%D0%B7%D0%BE%D0%BD+%D0%AE%D1%80%D0%BE%D1%87%D0%BA%D0%B8" data-event-category="Twitter share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Twitter" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-twitter"></i> </a> </li>  <li class="item via-tumblr"> <a href="//www.tumblr.com/share/link?url=http%3A%2F%2Faminoapps.com%2Fp%2F3ty9c&text=%D0%AD%D1%82%D0%BE+%D1%8F+%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0+%D0%B6%D0%B4%D1%83+2%D0%BE%D0%B9+%D1%81%D0%B5%D0%B7%D0%BE%D0%BD+%D0%AE%D1%80%D0%BE%D1%87%D0%BA%D0%B8" data-event-category="Tumblr share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Tumblr" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-t"></i> </a> </li>  <li class="item via-copylink"> <a class="block pointer with-tooltip" data-vce="clipboard" data-clipboard-text="http://aminoapps.com/p/3ty9c" data-event-category="CopyLink" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Link" > <i class="fa-2x amino-icon amino-icon-link"></i> <span class="tooltip tooltip-top">Скопировано</span> </a> </li> </ul> </section> </div> </div>  <section class="blog-like main-page-section" id="like-member-list" data-vce="lazy-blog-like" data-votes-count="23" data-post-type="blog" data-post-id="2746610b-3cb0-4c83-b1ad-4fd7e821bf91" > <h3 class="title community-color">  Лайки (23)  </h3>  <div class="pointer vote-counter" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/eto-ia-kogda-zhdu-2oi-sezon-iurochki/N41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2"   data-target-ndc-id="227658902" data-target-post-type="blog" data-target-post-id="2746610b-3cb0-4c83-b1ad-4fd7e821bf91" data-target-log-type="image"  data-join-icons="//pm1.narvii.com/6592/353457f5ece17c5a55d817365d5749040eb7dec7_128.jpg" data-join-deeplink="narviiapp://x227658902/blog/2746610b-3cb0-4c83-b1ad-4fd7e821bf91" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/eto-ia-kogda-zhdu-2oi-sezon-iurochki/N41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2" data-source="Like Post" data-login-motivation="Войдите, чтобы лайкнуть эту запись." data-event-label="like_post" data-submit-event-label="detail_page" > <i class="amino-icon amino-icon-heart-o"></i> <i class="amino-icon amino-icon-heart"></i> <span class="label">Лайк</span> <span class="num">23</span> </div>  <div class="content user-list loading"> <i class="fa fa-spin fa-spinner fa-2x"></i> <span class="vote-icon"> <i class="amino-icon amino-icon-heart"></i> </span> <span class="block more-votes"> <i class="amino-icon amino-icon-splat"></i> </span> </div> </section>  <a name="comment-list"></a> <section class="comment-list" data-vce="live-comment" data-live-comment-disabled="" data-target-ndc-id="227658902"  data-target-post-type="blog" data-target-post-id="2746610b-3cb0-4c83-b1ad-4fd7e821bf91" data-target-log-type="image" > <h3 class="title community-color">  Комментарий  </h3> <div class="content"  data-vce="comment-area">  <div class="load-comment-indicator"> <i class="fa fa-spin fa-circle-o-notch"></i> </div> <section class="comment-input-bar main" data-vce="comment-input-bar"  data-join-icons="//pm1.narvii.com/6592/353457f5ece17c5a55d817365d5749040eb7dec7_128.jpg" data-join-deeplink="narviiapp://x227658902/blog/2746610b-3cb0-4c83-b1ad-4fd7e821bf91" data-join-motivation="comment" data-join-motivation-comment="page" data-source="Comment New"  data-success-redirect data-event-label="comment_new" >  <img class="user-icon" src="//wa1.narvii.com/static/img/user-icon-placeholder.png"/>  <textarea name="content" placeholder="Прокомментируйте что-нибудь..." readonly maxlength="5000"></textarea> <button class="pointer btn btn-send community-bg" disabled> <i class="amino-icon amino-icon-send"></i> <i class="fa fa-spin fa-spinner"></i> </button> </section>   <div class="empty-padding"></div>   </div> <section class="live-comment"> <div class="content"> <div class="upper"> <ul class="comments unstyled"></ul> </div> <div class="pointer state-switch"> <span class="switch-on"> <i class="amino-icon amino-icon-show-comment"></i> </span> <span class="switch-off"> <i class="amino-icon amino-icon-hide-comment"></i> </span> </div>  <div class="comment-input-bar placeholder pointer"> <textarea name="content" readonly placeholder="Прокомментируйте что-нибудь..."></textarea> </div>  </div> </section> </section>   <section class="recommend-new show-not-pc">  <div class="recommend-item community-bg recommend-app" data-vce="rich-content">  <div class="backdrop-img"> <img data-vce="image" class="img-cover" data-src="//cm1.narvii.com/7761/7b95ceea1023004e02db789b2561cd152e19000d_375.jpg" alt="Community background image"/> </div>  <img class="img-cover" src="//cm1.narvii.com/7761/e4bca95ad0142c595155d5b9dde95ea9f8a46c01_120.jpg" alt="community logo"/> <p class="promotion">Нравится Юрий на льду !!!? 
+Вступите в сообщество.</p> <a class="btn community-color" href="/get/amino/" data-vce="deeplink" data-event-category="Download" data-event-label="post_endcap_download" data-tea-event="download_app" data-tea-source="Post Endcap Download" >Скачать Amino</a> </div> <article class="post recommend-item">  <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/fanfik-zimnii-lager/Yjka_nxpUbu0w5obx0MVeZwQKzrk2RmNYbp" class="block" data-refer-type="page_endcap_user_posts"  > <div class="cover">  <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div> </div>  </div> <div class="post-counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">12</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">3</span> </div> </div> </a>  <div class="content" data-vce="rich-content"> <small class="reason">  <i class="amino-icon amino-icon-user"></i> Создано  <span class="content">Ника Айрон( Хатико-тян)</span>   </small> <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/fanfik-zimnii-lager/Yjka_nxpUbu0w5obx0MVeZwQKzrk2RmNYbp" class="block" data-refer-type="page_endcap_user_posts"  > <h3 class="title">Фанфик "Зимний лагерь"</h3> </a>  </div> </article>  </section>  </article>  </div>  <!--article.main-post-->   <section class="recommend hide-blocker" >  <div class="recommend-item community-bg recommend-app" data-vce="rich-content"> <p class="promotion">Нравится Юрий на льду !!!? 
+Вступите в сообщество.</p> <a class="btn community-color" href="/get/amino/" data-vce="deeplink" data-event-category="Download" data-event-label="post_endcap_download" >Скачать</a> </div> <article class="post recommend-item ">  <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/fanfik-zimnii-lager/Yjka_nxpUbu0w5obx0MVeZwQKzrk2RmNYbp" class="block" data-refer-type="page_endcap_user_posts"  > <div class="cover">  <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div> </div>  </div> </a>  <div class="content" data-vce="rich-content"> <div class="reason">  Другие записи  <span class="content">Ника Айрон( Хатико-тян)</span>   </div> <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/fanfik-zimnii-lager/Yjka_nxpUbu0w5obx0MVeZwQKzrk2RmNYbp" class="block" data-refer-type="page_endcap_user_posts"  > <h3 class="title">Фанфик "Зимний лагерь"</h3> </a> <div class="pretty-date">10/04/17</div> <section class="info">  <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk" class="block"> <img class="author avatar" data-vce="image"  src="//pm1.narvii.com/6592/353457f5ece17c5a55d817365d5749040eb7dec7_128.jpg"  > </a> <div class="overflow-hidden"> <a class="nickname" href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk" data-vce="rich-content">  <span class="content">Ника Айрон( Хатико-тян)</span>  <i class="level-badge level-badge-9"></i>  </a> <span class="pretty-date">10/04/17</span> </div>  </section> </div> </article>  </section><!--/.recommend-->   <section class="next-post" data-href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/fanfik-zimnii-lager/Z6kN_E0GHBuj1vM840M0GKr2v1gmJE6poY"> <div class="content"> <i class="fa fa-spin fa-spinner fa-2x white"></i> <i class="fa fa-spin fa-spinner fa-2x community-color"></i> </div> </section>  </div> <script class="exclusion_list" type="text/plain">2746610b-3cb0-4c83-b1ad-4fd7e821bf91</script> </section><!--/.main-content-->  <div class="live-member-list" data-vce="member-list" data-event-category="Popup Join" data-event-action="online_members" data-tea-event="download_popup" data-tea-source="Online Members" > <div class="content" data-vce="btn-popup" data-popup="join-community"  data-popup-motivation="online_members" data-popup-tea-source="Online Members Popup" data-popup-close-by-overlay="1" > <span class="avatars"></span> <span class="member-counter" data-vce="overflow-aware"></span> </div> </div> </section> <div class="community-livelayer-padding cloak"></div>  <aside class="community-sidebar" data-vce="sidebar-community" data-close-by-overlay="1"> <div class="content community-sidebar-container overflow-scroll-sidebar">  <section class="sidebar-card community-info sidebar-section user-canopy " data-vce="join-community"> <div class="sidebar-community-bg community-bg">  <img class="img-cover" src="//cm1.narvii.com/7761/7b95ceea1023004e02db789b2561cd152e19000d_375.jpg" alt="community background">  </div>  <div class="sidebar-profile-container"> <a class="block sidebar-community-info" href="https://aminoapps.com/c/iurii-na-ldu-3293482/info/" data-refer-type="community_card" >  <div class="community-icon"> <img class="logo" src="//cm1.narvii.com/7761/e4bca95ad0142c595155d5b9dde95ea9f8a46c01_120.jpg"> </div> <div class="basic-info"> <h1 class="title font-montserrat-black" data-vce="rich-content">Юрий на льду !!!</h1> <div class="heat-gauge"> <div class="heat heat-2"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> </div> <div class="member-count">  Количество участников: 7,296   </div> </div> </a> <p class="tagline">Здесь интерестно</p> <button class="btn full-width pointer community-bg" data-vce="btn-join-community" data-vce-name="direct_join" data-event-label="community_card" data-source="Card Join Now" data-event-category="Join" data-ndc-id="227658902" > Вступить </button> <button class="btn button full-width pointer community-color pre-login-compose" data-vce="pre-login-btn" data-event-label="create_post" data-source="Card Create Post" data-true-form="user/compose-entry" data-success-redirect="" data-join-icons="//cm1.narvii.com/7761/e4bca95ad0142c595155d5b9dde95ea9f8a46c01_120.jpg" data-join-motivation="create-post" data-login-motivation="Войдите, чтобы создать запись." data-event-category="Join" data-ndc-id="227658902" > Создать запись </button> </div>  </section> <!-- Implement desktop_wana_left --> <div style= "display:flex; justify-content:center; align-items: center; width:300px; min-height:250px"> <section id="slot-left-aside" class="ad-block left" style="width:300px; min-height:250px;"></section> </div> <script type='text/javascript'>
+    document.addEventListener('ANAReady', () => {
+        if (window.slotLeftAside) {
+            return;
+        }
+
+        window.createSlot('slotLeftAside', 'slot-left-aside', '/114106652/amino_300x250_atf_desktop_2', [[300, 250]]);
+
+        window.ANAWeb.autoRefreshSlots([slotLeftAside], 15000, false)
+    });
+</script> </div>  <div class="content" data-vce-name="sidebar_content" data-vce="sticky"></div>  </aside>   <aside class="community-aside recommendation-sidebar"> <div class="content " data-vce="page-aside">  <section class="author-aside j-followee-number-container hide-blocker" >  <div class="info"> <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk" class="block" data-refer-type="sidebar_author">  <img src="//pm1.narvii.com/6592/353457f5ece17c5a55d817365d5749040eb7dec7_128.jpg" class="avatar" />  </a> <div class="overflow-hidden"> <a class="block nickname" href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk" data-vce="rich-content" data-refer-type="sidebar_author">  <span class="content">Ника Айрон( Хатико-тян)</span>  </a>  <div class="pretty-date"> Дата вступления Sep 2017 </div>  </div> </div> <div class="counters"> <div class="counter"> <div class="num">1019</div> <h5 class="label">Репутация</h5> </div> <div class="counter"> <div class="num">43</div> <h5 class="label">Подписки</h5> </div> <div class="counter"> <div class="num j-followee-number-target">213</div> <h5 class="label">  Подписчики  </h5> </div> </div>   <a class="follow-btn pointer block"  data-login-motivation="Войдите, чтобы подписаться на Ника Айрон( Хатико-тян)." data-vce="pre-login-btn" data-true-form="user/follow-btn" data-join-icons="//pm1.narvii.com/6592/353457f5ece17c5a55d817365d5749040eb7dec7_128.jpg" data-join-motivation="follow-pc" data-event-label="follow" data-source="Follow"  data-follow-event-label="author_card" data-followee="4faeef1b-17ac-4d60-b9cf-510537d1169d" data-follower="" > <span class="following"> <i class="follow-icon"></i> Подписки </span> <span class="friends"> <i class="follow-icon"></i> Друзья </span> <span class="stranger"> <i class="follow-icon fa fa-plus"></i> Подписаться </span> <span class="unfollow"> Отписаться </span> <i class="fa fa-circle-o-notch fa-spin"></i> </a>  </section> <!--/.author-aside-->  <div class="ad-block-container" style="display:flex; justify-content: center; align-items: center; width:300px; min-height:600px;"> <section class="ad-block" style="width:300px; min-height:250px;"> </section> </div> <script type='text/javascript'>
+    document.getElementsByClassName("ad-block-container")[0].children[0].id = 'slot-right-aside';
+
+    document.addEventListener('ANAReady', () => startWanaRight());
+
+    window.addEventListener("resize", () => startWanaRight());
+
+    const startWanaRight = () => {
+        if (window.innerWidth > 1206) {
+
+            if (window.slotRightAside) {
+                return;
+            }
+
+            window.createSlot('slotRightAside', 'slot-right-aside', '/114106652/amino_300x250_atf_desktop', [[300, 250], [300, 600]], true, 1207);
+            
+            if (true) {
+                window.scrollListener('ad-block-container', "slot-right-aside");
+            }
+        }
+    }
+
+
+</script>  <section class="sidebar-card chatroom-sidebar" data-vce="sidebar-chat-list"> <h3 class="label community-color"> <i class="amino-icon amino-icon-reload j-reload"></i> Общие чаты </h3> <div class="chatroom-list-container simple-list"> </div> <div class="loading-overlay"> <i class="fa fa-spin fa-circle-o-notch community-color"></i> </div> </section>    <section class="popular mutual-block" > <h3 class="label community-color with-margin" data-vce="rich-content">Другие записи  <span class="content">Ника Айрон( Хатико-тян)</span> </h3> <section class="simple-list">   <article class="post mutual-block " >  <div class="cover">  <div class="img-cover community-bg"></div>  </div> <a class="block content" href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/fanfik-zimnii-lager/X0ro_vxYUguWz65VG7g1DQV42XqZklW3Qo"  data-vce="rich-content" data-refer-type="sidebar_post_user_posts" > <section class="desc"> <h3 class="title"> Фанфик "Зимний лагерь" </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">12</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">2</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="img-cover community-bg"></div>  </div> <a class="block content" href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/shest-stadii-rasstavaniia-po-plisetski/pX2E_ve3IQuRZWM66153L3NbQq200xQgmKP"  data-vce="rich-content" data-refer-type="sidebar_post_user_posts" > <section class="desc"> <h3 class="title"> Шесть стадий расставания по-плисецки </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">14</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">2</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-Ника Айрон( Хатико-тян)-a47df0cd" data-vce="image" decoding="async" id="media-a47df0cd"  src="//pm1.narvii.com/6605/4a1b716f6ef2d83239aa32d2b31e2e69acdb6b23_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/blog/kospleichik-godnenkii/8BrM_WRKhmu263oMgzvnEanrqadlov7jmRl"  data-vce="rich-content" data-refer-type="sidebar_post_user_posts" > <section class="desc"> <h3 class="title"> Косплейчик годненький </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">15</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </footer> </a> </article>  </section> <a href="https://aminoapps.com/c/iurii-na-ldu-3293482/page/user/nika-airon-khatiko-tian/BQYl_Eq6tbfdbNmg8vbJl5kPb545r5Q88Rk#user-blog-posts" class="more linkblue block" data-refer-type="sidebar_post_user_more"> Дальше </a> </section> <!--/.popular-->   </div> </aside>  <a id="call2action-interested" class="disp_none" data-vce="btn-popup" data-popup="join-community" data-popup-icons="//pm1.narvii.com/8063/4359ce938137467eb3de30878a33100e8b3b5a54r1-1070-992v2_128.jpg" data-popup-motivation="proactive" data-popup-tea-source="Proactive Popup"  data-popup-close-by-overlay="1"  ></a> </section>
+
+
+
+<div class="modal" data-true-form="modal">
+    <div class="overlay"></div>
+    <div class="content"></div>
+    <div class="swipe-indicator swipe-indicator-left">
+        <i class="fa fa-arrow-circle-left fa-3x"></i>
+    </div>
+    <div class="swipe-indicator swipe-indicator-right">
+        <i class="fa fa-arrow-circle-right fa-3x"></i>
+    </div>
+</div>
+
+<div class="back-top">
+    <a class="content block pointer">
+        <i class="fa fa-arrow-up fa-2x"></i>
+    </a>
+</div>
+
+<div data-vce="toast">
+    <div class="content">
+    </div>
+</div>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap">
+<link rel="stylesheet" href="//wa1.narvii.com/static/dist/css/font-awesome.55097e0bd.css">
+<script>
+var s = window.ServerData;
+s.eventLabel = 'page_v2.blog.Image';
+s.hostUrl = "https://aminoapps.com";
+s.serverName = "aminoapps.com";
+s.referType = "";
+s.facebookClientId = "255884441431980";
+s.googleClientId = "965888619343-p4j7tjogbsffi3u5l1tidk8jlb3s8idb.apps.googleusercontent.com";
+s.recaptchaKey = "6Ldl_kwUAAAAAB3HCpbAKU-rwUPXZaxeH7ADEOSC";
+s.recaptchaV3Key = "6LfDlpUUAAAAAP3ZSaPBbpOeO1w12Fsv7WeY5cqw";
+s.language = "ru"
+s.assetURLPrefix = "//wa1.narvii.com/static"
+window._ = function (text) { return window._.dict[text] || text; };
+window._.dict = {"Are you sure you want to leave this Community?": "\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u044b\u0439\u0442\u0438 \u0438\u0437 \u044d\u0442\u043e\u0433\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430?", "Copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e", "Enjoy your experience in Amino Community? Get the app and join us!": "\u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e? \u0421\u043a\u0430\u0447\u0438\u0432\u0430\u0439\u0442\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0438 \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0439\u0442\u0435\u0441\u044c \u043a \u043d\u0430\u043c!", "Exclusive Posts": "\u042d\u043a\u0441\u043a\u043b\u044e\u0437\u0438\u0432\u043d\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438", "Fan Status": "\u0424\u0430\u043d \u0441\u0442\u0430\u0442\u0443\u0441", "Flag for Review": "\u041f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\u0441\u044f", "Get App": "\u0421\u043a\u0430\u0447\u0430\u0442\u044c", "Got any thoughts on my post?": "\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u0435\u0441\u044c \u043c\u043d\u0435\u043d\u0438\u0435\u043c \u043e \u043c\u043e\u0435\u0439 \u0437\u0430\u043f\u0438\u0441\u0438?", "Got it": "\u042f\u0441\u043d\u043e", "I\u0027d love to hear your voice! Get the Amino app!": "\u042f \u0431\u044b \u043e\u0447\u0435\u043d\u044c \u0445\u043e\u0442\u0435\u043b \u0432\u0430\u0441 \u0443\u0441\u043b\u044b\u0448\u0430\u0442\u044c! \u0421\u043a\u0430\u0447\u0438\u0432\u0430\u0439\u0442\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0410\u043c\u0438\u043d\u043e!", "Interested in my post? Join this Community and let\u0027s talk!": "\u0418\u043d\u0442\u0435\u0440\u0435\u0441\u0435\u043d \u043c\u043e\u0439 \u043f\u043e\u0441\u0442? \u0412\u0441\u0442\u0443\u043f\u0430\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0438 \u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u043e\u0431\u0449\u0430\u0442\u044c\u0441\u044f!", "Join": "\u0412\u0441\u0442\u0443\u043f\u0438\u0442\u044c", "Join Now": "\u0412\u0441\u0442\u0443\u043f\u0438\u0442\u044c", "Join this Community and leave a comment!": "\u0412\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0438 \u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439!", "Join this Community and let\u0027s talk!": "\u0412\u0441\u0442\u0443\u043f\u0430\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0438 \u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u043e\u0431\u0449\u0430\u0442\u044c\u0441\u044f!", "Join this Community to hang out with all of us [community_name] members": "\u0412\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0438 \u043f\u043e\u043e\u0431\u0449\u0430\u0442\u044c\u0441\u044f \u0441\u043e \u0432\u0441\u0435\u043c\u0438 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u043c\u0438", "Join this Community to read my full comment!": "\u0412\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0438 \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c \u043c\u043e\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439!", "Join this Community to see all our comments!": "\u0412\u0441\u0442\u0443\u043f\u0430\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0438 \u0447\u0438\u0442\u0430\u0439\u0442\u0435 \u0432\u0441\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438!", "Keep up with members you follow in this Community": "\u0423\u0437\u043d\u0430\u0439, \u0447\u0442\u043e \u043d\u043e\u0432\u0435\u043d\u044c\u043a\u043e\u0433\u043e \u0443 \u0442\u0435\u0445, \u043d\u0430 \u043a\u043e\u0433\u043e \u0442\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d \u0432 \u044d\u0442\u043e\u043c \u0441\u043e\u043e.", "Let\u0027s talk about it on Amino.": "\u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043e\u0431\u0441\u0443\u0434\u0438\u043c \u044d\u0442\u043e \u0432 Amino.", "Loading": "\u0417\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044f", "Member Chats": "\u0427\u0430\u0442\u044b \u0441 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u043c\u0438", "Oh, you like my comment?": "\u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f \u043c\u043e\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439?", "Oh, you like my post?": "\u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f \u043c\u043e\u044f \u0437\u0430\u043f\u0438\u0441\u044c?", "Oh, you like my wiki?": "\u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f \u043c\u043e\u044f \u0441\u0442\u0430\u0442\u044c\u044f?", "Only members of this Community have the right to vote.": "\u0422\u043e\u043b\u044c\u043a\u043e \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438 \u044d\u0442\u043e\u0433\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u043c\u043e\u0433\u0443\u0442 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0430\u0442\u044c.", "Open in App": "\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438", "Put it somewhere people will see it.": "\u0420\u0430\u0437\u043c\u0435\u0441\u0442\u0438\u0442\u0435 \u044d\u0442\u043e, \u0433\u0434\u0435 \u0432\u0441\u0435 \u0443\u0432\u0438\u0434\u044f\u0442.", "Reply to:": "\u041e\u0442\u0432\u0435\u0442\u0438\u0442\u044c:", "Share this post": "\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u044d\u0442\u0438\u043c \u043f\u043e\u0441\u0442\u043e\u043c", "Sign in to join this Community.": "\u0412\u043e\u0439\u0442\u0438 \u0438 \u0432\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e.", "Sign in to leave a comment.": "\u0412\u043e\u0439\u0434\u0438\u0442\u0435, \u0447\u0442\u043e\u0431\u044b \u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439.", "Sign in to read more replies.": "\u0412\u043e\u0439\u0434\u0438\u0442\u0435, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u043e\u0447\u0435\u0441\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.", "Sign in to read the whole comment.": "\u0412\u043e\u0439\u0434\u0438\u0442\u0435, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c \u0432\u0435\u0441\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439.", "Sign in to see all comments.": "\u0412\u043e\u0439\u0434\u0438\u0442\u0435, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0441\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.", "Something to say?": "\u0425\u043e\u0442\u0438\u0442\u0435 \u0432\u044b\u0441\u043a\u0430\u0437\u0430\u0442\u044c\u0441\u044f?", "Something to share? Join this Community to create a post.": "\u0415\u0441\u0442\u044c \u0447\u0442\u043e \u0441\u043a\u0430\u0437\u0430\u0442\u044c? \u0412\u0441\u0442\u0443\u043f\u0430\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0438 \u0441\u043e\u0437\u0434\u0430\u0439\u0442\u0435 \u0437\u0430\u043f\u0438\u0441\u044c.", "There\u0027s all sorts of good stuff happening in this fan club.": "\u0412 \u044d\u0442\u043e\u043c \u0444\u0430\u043d-\u043a\u043b\u0443\u0431\u0435 \u0447\u0435\u0433\u043e \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0435 \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u0438\u0442.", "This Community is full of great stuff. Get the app to see it all.": "\u0412 \u044d\u0442\u043e\u043c \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435 \u043f\u043e\u043b\u043d\u043e \u043a\u0440\u0443\u0442\u043e\u0433\u043e \u043a\u043e\u043d\u0442\u0435\u043d\u0442\u0430! \u0421\u043a\u0430\u0447\u0438\u0432\u0430\u0439 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u0435\u0433\u043e.", "This Fan Club is closed.": "\u042d\u0442\u043e\u0442 \u0444\u0430\u043d-\u043a\u043b\u0443\u0431 \u0437\u0430\u043a\u0440\u044b\u0442.", "This chat is for Community members only.": "\u042d\u0442\u043e\u0442 \u0447\u0430\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u0442\u043e\u043b\u044c\u043a\u043e \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u043c \u044d\u0442\u043e\u0433\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430.", "Yes": "\u0414\u0430", "You can only comment if you join this Community.": "\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c, \u0442\u043e\u043b\u044c\u043a\u043e \u0435\u0441\u043b\u0438 \u0432\u0441\u0442\u0443\u043f\u0438\u0442\u0435 \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e.", "You can only follow me if you get the Amino app. Do it do it do it.": "\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043d\u0430 \u043c\u0435\u043d\u044f \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f, \u0435\u0441\u043b\u0438 \u0432\u0441\u0442\u0443\u043f\u0438\u0442\u0435 \u0432 \u044d\u0442\u043e \u0430\u043c\u0438\u043d\u043e. \u0421\u0434\u0435\u043b\u0430\u0439\u0442\u0435 \u044d\u0442\u043e \u0441\u043a\u043e\u0440\u0435\u0435!", "You can only follow me if you join this Community.": "\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043d\u0430 \u043c\u0435\u043d\u044f \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f, \u0442\u043e\u043b\u044c\u043a\u043e \u0435\u0441\u043b\u0438 \u0432\u0441\u0442\u0443\u043f\u0438\u0442\u0435 \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e.", "You can only join my fan club on the Amino app. Do it do it.": "\u0412\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0439 \u0444\u0430\u043d-\u043a\u043b\u0443\u0431 \u043c\u043e\u0436\u043d\u043e \u0442\u043e\u043b\u044c\u043a\u043e \u0432 Amino app. \u0414\u0435\u0439\u0441\u0442\u0432\u0443\u0439!", "You can renew your subscription on the Amino app.": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443 \u043c\u043e\u0436\u043d\u043e \u0432 Amino app.", "You need to get the Amino app to join my Community. See you there!": "\u0412\u0430\u043c \u043d\u0443\u0436\u043d\u043e \u0441\u043a\u0430\u0447\u0430\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 Amino, \u0447\u0442\u043e\u0431\u044b \u0432\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e. \u0423\u0432\u0438\u0434\u0438\u043c\u0441\u044f \u0442\u0430\u043c!", "You need to get the Amino app to start chating with us.": "\u0414\u043b\u044f \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0441 \u043d\u0430\u043c\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 Amino.", "You need to join this Community first!": "\u0421\u043d\u0430\u0447\u0430\u043b\u0430 \u0432\u0430\u043c \u043d\u0443\u0436\u043d\u043e \u0432\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e!", "You need to join this Community to start chatting with us.": "\u0412\u0430\u043c \u043d\u0443\u0436\u043d\u043e \u0432\u0441\u0442\u0443\u043f\u0438\u0442\u044c \u0432 \u044d\u0442\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u043e\u0431\u0449\u0430\u0442\u044c\u0441\u044f \u0441 \u043d\u0430\u043c\u0438.", "[member_count] member online": "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432: [member_count] ", "[member_count] members online": "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432 \u043e\u043d\u043b\u0430\u0439\u043d: [member_count]\u00a0", "[nickname] is now online": "\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a [nickname] \u0441\u0435\u0439\u0447\u0430\u0441 \u043e\u043d\u043b\u0430\u0439\u043d", "[nickname] just joined": "\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a [nickname] \u0442\u043e\u043b\u044c\u043a\u043e \u0447\u0442\u043e \u0432\u0441\u0442\u0443\u043f\u0438\u043b \u0432 \u0447\u0430\u0442"};
+s.isLogin = false;
+s.isMember = false;
+</script>
+
+<script>
+    ServerData.deeplink = "narviiapp://x227658902/blog/2746610b-3cb0-4c83-b1ad-4fd7e821bf91";
+    ServerData.community = {"Android": "https://aminoapps.com/jump/store?id=com.narvii.amino.master", "color": [71, 87, 110, 1.0], "deeplink": "narviiapp://x227658902/description", "endpoint": "iurii-na-ldu-3293482", "iOS": "/jump/store?target=ios", "isPrivate": false, "linkDownload": "/c/iurii-na-ldu-3293482/download/", "logo": "//cm1.narvii.com/7761/e4bca95ad0142c595155d5b9dde95ea9f8a46c01_120.jpg", "membersCount": 7296, "name": "\u042e\u0440\u0438\u0439 \u043d\u0430 \u043b\u044c\u0434\u0443 !!!", "ndcId": "x227658902", "tagline": "\u0417\u0434\u0435\u0441\u044c \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0442\u043d\u043e"};
+    ServerData.experiments = {"ab_proactive_download_popup_ciw": "0", "ab_proactive_download_popup_delay": "60"};
+        ServerData.members = {"onlineMembersCount": 1, "onlineMembersList": [{"createdTime": "2021-06-07T13:53:26Z", "icon": "//pm1.narvii.com/8116/e8aed15e877546fb47937322b701d3bee5a8bd59r1-557-800v2_00.jpg", "nickname": "\u042e\u0440\u0438\u0439 \u041a\u0430\u0446\u0443\u043a\u0438", "uid": "1db73fb6-27ab-4cdb-a4be-ecd50af0c5c6"}]};
+        ServerData.community.listedStatus = 2
+        ServerData.community.templateId = 3
+</script> 
+
+<!-- Google and TEA Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55669232-10', 'auto', {'useAmpClientId': true});
+  ga('create', 'UA-55669232-5', 'auto', 'sampling', {'useAmpClientId': true, sampleRate: 5});
+  ga('set', 'transport', 'beacon');
+  ga('sampling.set', 'transport', 'beacon');
+  ga('set', 'dimension4', 'no');
+  ga('sampling.set', 'dimension4', 'no');
+  ga('set', 'dimension6', location.href.split(/:/)[0]);
+  ga('sampling.set', 'dimension6', location.href.split(/:/)[0]);
+
+</script> <script class="ga_variables">        ga('set', 'dimension2', "page_v2?amino_id=iurii-na-ldu-3293482\u0026page_type=page\u0026slug=blog%2Feto-ia-kogda-zhdu-2oi-sezon-iurochki%2FN41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2");
+        ga('sampling.set', 'dimension2', "page_v2?amino_id=iurii-na-ldu-3293482\u0026page_type=page\u0026slug=blog%2Feto-ia-kogda-zhdu-2oi-sezon-iurochki%2FN41v_b3LfMu1p56Wg48WW5K00Jjlk2GPQ2");
+        ga('set', 'dimension3', "2017-10-05T10:42:57Z");
+        ga('sampling.set', 'dimension3', "2017-10-05T10:42:57Z");
+    ga('set', 'dimension5', 'page_v2.blog.Image');
+    ga('sampling.set', 'dimension5', 'page_v2.blog.Image');
+    ga('set', 'dimension7', "");
+    ga('sampling.set', 'dimension7', "");
+    ga('set', 'dimension9', false);
+    ga('sampling.set', 'dimension9', false);
+</script> <script async src="https://s0.ipstatp.com/static_magic/pgc/tech/collect/collect-v.3.1.32.js"></script> <script>
+(function(window, document, export_obj) {
+    var win = window;
+    win['TeaAnalyticsObject'] = export_obj;
+    if (!win[export_obj]) {
+        function _collect() { _collect.q.push(arguments); return _collect; }
+        _collect.q = _collect.q || [];
+        win[export_obj] = _collect;
+    }
+    window[export_obj].l = +new Date();
+})(window, document, 'collectEvent');
+window.collectEvent('init', { app_id: 151083, channel: 'va' });
+var tea_config = {"ab_proactive_download_popup_ciw": "0", "ab_proactive_download_popup_delay": "60", "app_name": "amino", "client_type": "Web", "disable_auto_pv": true, "evtParams": {"app_type": "Web", "community_id": 227658902}, "installed_web": "True", "login_status": "False", "referer": "https://www.google.com/", "referer_host": "www.google.com", "user_unique_id": ""};
+tea_config.evtParams.page_source = ServerData.eventLabel;
+window.collectEvent('config', tea_config);
+window.collectTEA = function(evt, obj) { obj = obj || {}; window.collectEvent(evt, obj); };
+window.collectEvent('send');
+window.collectEvent('predefinePageView', { refer_type: "" });
+function sendPageView() {
+    ga('set', 'location', location.href);
+    ga('sampling.set', 'location', location.href);
+    ga('send', 'pageview');
+    ga('sampling.send', 'pageview');
+}
+sendPageView();
+</script> 
+<script src="//wa1.narvii.com/static/dist/js/main.144bb0a5c.js"></script>
+<div id="gdpr-cookie-consent"> <h3>Политика в отношении файлов "Cookie" </h3> <p>  Данный веб-сайт сохраняет файлы cookie в вашем браузере в целях совершенствования навигации в сети и отображения персонализированного контента. Прочитайте нашу <a class="link" href="http://narvii.com/privacy" target="_blank">Политику конфиденциальности</a> и <a class="link" href="https://support.aminoapps.com/hc/en-us/articles/360004040313-Does-Amino-use-cookies-on-its-website-" target="_blank">Политику в отношении файлов cookie,</a> чтобы получить подробную информацию и узнать, как настроить параметры. </p> <button class="confirm-close" onclick="closeGDPRCookie()">Принять</button> </div> <script>
+function closeGDPRCookie() {
+    document.cookie = 'gdpr_cookie_agreee=1;max-age=31536000;path=/';
+    var consent = document.querySelector('#gdpr-cookie-consent');
+    consent.parentNode.removeChild(consent);
+}
+</script> <style>
+#gdpr-cookie-consent {
+    position: fixed;
+    padding: 14px;
+    font-size: 13px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    bottom: 8px;
+    right: 87px;
+    max-width: 410px;
+    color: #1a1a1a;
+    z-index: 5005;
+    /*1145141919810;
+    $z-global-modal: 5010;
+    */
+}
+#gdpr-cookie-consent > h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+}
+#gdpr-cookie-consent .close {
+    float: right;
+    color: #bdbdbd;
+    font-size: 20px;
+    line-height: 16px;
+}
+#gdpr-cookie-consent .link {
+    color: #0F86FF;
+}
+#gdpr-cookie-consent > p {
+    margin: 0;
+    margin-top: 8px;
+    line-height: 15px;
+}
+#gdpr-cookie-consent > .confirm-close {
+    background: none;
+    border: 1px solid #979797;
+    outline: none;
+    border-radius: 8px;
+    float: right;
+    padding: 8px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.not-mobile #gdpr-cookie-consent > .confirm-close:hover {
+    background: #f1f1f1;
+}
+@media (max-width: 640px) {
+#gdpr-cookie-consent {
+    left: 0;
+    right: -1px;
+    bottom: 0;
+    border-radius: 0;
+    max-width: none;
+}
+}
+</style> 
+</body>
+<footer>
+  <!-- Quantcast Tag --> <script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    _qevents.push({
+    qacct: "p-3bDtRer0SSNWT",
+    uid: "ops@medialab.la"
+    });
+</script> <noscript>
+    <div style="display:none;">
+    <img src="//pixel.quantserve.com/pixel/p-3bDtRer0SSNWT.gif" border="0" height="1" width="1" alt="Quantcast"/>
+    </div>
+</noscript> <!-- The core Firebase JS SDK is always required and must be listed first --> <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script> <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries --> <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script> <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDUbgzJwO1Fd5oawjcV3x8HkWGHET-Ky8Q",
+    authDomain: "golden-shine-845.firebaseapp.com",
+    databaseURL: "https://golden-shine-845.firebaseio.com",
+    projectId: "golden-shine-845",
+    storageBucket: "golden-shine-845.appspot.com",
+    messagingSenderId: "641940763521",
+    appId: "1:641940763521:web:26ac22ae145b37182d6e80",
+    measurementId: "G-9SJ4LCCH1X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script> </footer>
+</html>
