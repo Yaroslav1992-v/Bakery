@@ -141,6 +141,11 @@ a {
     color: #fff;
     border-radius: 15px;
     background-color: #4267B2;
+    transition: background-color 0.5s ease;
+}
+
+.menu__contact:hover {
+    background-color: #1DA1F2;
 }
 
 .menu__link {
@@ -200,15 +205,22 @@ a {
     text-align: center;
     max-width: 200px;
     width: 100%;
-    padding: 15px 40px;
     background-color: #FFBF71;
     margin: 0 auto 40px auto;
     border-radius: 10px;
+    transition: background-color 0.5s ease;
 }
 
+.header__linkBox:hover {
+    background-color: #F26E22;
+}
+
+
 .header__link {
+    padding: 15px 40px;
     font-size: 18px;
     color: #fff;
+    display: flex;
     width: 100%;
 }
 
