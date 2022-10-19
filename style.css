@@ -197,17 +197,19 @@ a {
 .header__linkBox {
     display: flex;
     flex-direction: column;
-    max-width: 255px;
+    text-align: center;
+    max-width: 200px;
     width: 100%;
     padding: 15px 40px;
     background-color: #FFBF71;
-    justify-content: center;
     margin: 0 auto 40px auto;
+    border-radius: 10px;
 }
 
 .header__link {
     font-size: 18px;
     color: #fff;
+    width: 100%;
 }
 
 .baking {
